@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
+      <img src="https://github.com/dacrypto/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
     </a>
   <br />
 
@@ -14,7 +14,7 @@
   <h3 align="center">A 3D Developer Portfolio</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+    
     </div>
 </div>
 
@@ -89,7 +89,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
+git clone git@github.com:dacrypto/project_3D_developer_portfolio.git
 cd project_3D_developer_portfolio
 ```
 
@@ -171,19 +171,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Technical Writer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Ecosystem Manager",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Governance Lead",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Community & Project Manager",
     icon: creator,
   },
 ];
@@ -245,55 +245,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Technical Writer",
+    company_name: "Ethereum Foundation",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created comprehensive technical documentation for blockchain protocols and smart contracts.",
+      "Collaborated with developers and researchers to produce educational content on Web3 technologies.",
+      "Developed governance proposals and framework documentation for decentralized protocols.",
+      "Reviewed and provided feedback on technical specifications and governance documents.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Ecosystem Manager",
+    company_name: "Polkadot",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed ecosystem growth and partnerships within the Polkadot network.",
+      "Coordinated with multiple teams including developers, community managers, and stakeholders.",
+      "Implemented strategies for ecosystem expansion and decentralized adoption.",
+      "Participated in governance discussions and provided insights on ecosystem development.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Governance Lead",
+    company_name: "Aave",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led governance initiatives and protocol improvement proposals (AIPs).",
+      "Collaborated with core teams and community members to shape protocol direction.",
+      "Implemented transparent governance frameworks and voting mechanisms.",
+      "Participated in governance reviews and provided strategic recommendations.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Community & Project Manager",
+    company_name: "Snapshot",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managing community engagement and building a thriving ecosystem of DAOs.",
+      "Coordinating with multiple teams including developers, designers, and governance facilitators.",
+      "Implementing community programs and supporting decentralized governance initiatives.",
+      "Facilitating discussions and providing feedback on community-driven proposals.",
     ],
   },
 ];
@@ -327,67 +327,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GovernChain",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A decentralized governance platform that enables DAOs to manage treasury, create proposals, and execute governance decisions efficiently. Provides comprehensive tools for community voting and protocol administration across multiple blockchain networks.",
+    tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "web3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "governance",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: governchain,
+    
+  },
+  {
+    name: "NexusSwap",
+    description:
+      "A decentralized exchange (DEX) platform enabling seamless token swaps, liquidity pooling, and yield farming. Built on smart contracts with advanced features for DeFi traders and liquidity providers seeking efficient asset exchange.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "smartcontracts",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "defi",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: nexusswap,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "BridgeFlow",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A cross-chain bridge protocol that facilitates seamless asset transfer and interoperability between multiple blockchains. Enables users to move tokens across different networks with enhanced security and reduced latency for Web3 ecosystem connectivity.",
     tags: [
       {
-        name: "react",
+        name: "solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "chainlink",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "interoperability",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bridgeflow,
+    source_code_link: "https://github.com/",,
   },
 ];
 

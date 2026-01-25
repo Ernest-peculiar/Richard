@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a passionate Web3 professional with expertise in blockchain governance, ecosystem development, and community management. I specialize in technical writing, governance frameworks, and building scalable Web3 solutions. I collaborate with projects to create sustainable, decentralized systems that drive innovation in the blockchain space. Let's build the future of Web3 together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
